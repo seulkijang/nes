@@ -1,0 +1,345 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+    color: red;
+
+}
+
+span {
+    text-transform: uppercase;
+    color: green;
+}
+
+.container {
+    width: 600px;
+    margin-top: 2em;
+    margin: 0 auto;
+    background-color: pink;
+
+}
+
+section {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.btn {
+    padding: 0.7em;
+    padding-top: 0.9em;
+    padding-bottom: 0.9em;
+    border: 1px solid white;
+    background-color: transparent;
+    font-size: 10px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transition: 0.5s all;
+    background-color: red;
+}
+
+.header_wrapper {
+    width: 100%;
+    height: 80px;
+    margin: 0 auto;
+    background-color: green;
+    border: 1px solid blue;
+    margin-bottom: 1.5em;
+    z-index: 100;
+    position: fixed;
+    padding-top: 1em;
+    text-align: center;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.login {
+    width: 600px;
+    height: 40px;
+    background: pink;
+    position: relative;
+    margin: 10 auto;
+    border: 1px solid yellow;
+    vertical-align: baseline;
+    display: inline-block;
+}
+
+.logo {
+    background-image: url('https://www.nespresso.com/ecom/medias/sys_master/public/10826726244382/logo-white.svg');
+    background-size: 113px 26px;
+    width: 113px;
+    height: 26px;
+    display: inline-block;
+    position: absolute;
+    top: 4px;
+    left: 0px;
+}
+
+.sign {
+    position: absolute;
+    top: 0px;
+}
+
+.cart {
+    position: absolute;
+    right: 0px;
+}
+
+div.nav {
+    width: 100%;
+    margin-top: 5em;
+    height: 2.4rem;
+    background: grey;
+}
+
+ul.menu {
+    display: flex;
+    margin: 0 auto;
+    width: 600px;
+    font-size: 0px;
+}
+
+.header_menu {
+    display: inline-block;
+    width: 75px;
+    height: 2.7rem;
+    text-align: center;
+    vertical-align: top;
+    line-height: 20px;
+    font-size: 8px;
+    color: white;
+    position: relative;
+}
+
+li.header_menu:before {
+    position: absolute;
+    content: "";
+    top: 5px;
+    left: 0px;
+    width: 1px;
+    height: 30px;
+    border-left: 0.1px solid darkgray;
+}
+
+li.header_menu:first-child:before {
+    display: none;
+}
+
+.menu li span {
+    margin-top: 8px;
+}
+
+.header_icon {
+    background-image: url('https://www.nespresso.com/ecom/medias/sys_master/public/10563355836446/capsule.png?impolicy=small&imwidth=60');
+    width: 22px;
+    height: 12px;
+    display: block;
+    background-size: 21px 25px;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 10px;
+    background-repeat: no-repeat;
+}
+
+.menu {
+    display: inline-block;
+}
+
+div.submenu {
+    width: 30px;
+    height: 20px;
+    background-image: url('https://www.nespresso.com/ecom/medias/sys_master/public/10563355967518/accessory.png?impolicy=small&imwidth=60');
+    display: inline-block;
+    background-size: 30px 40px;
+    margin-bottom: 20px;
+    border: 1px solid red;
+}
+
+.maincontainer {
+    width: 600px;
+    margin: 0 auto;
+    height: 15.5em;
+    background-image: url('https://www.nespresso.com/ecom/medias/sys_master/public/12395145822238/11152003-NES-Milky-World-ecom-Desktop-banner-HomePage-4524x1640-EN.Resize.jpg?impolicy=carouselBannerWide&imwidth=996');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 600px;
+    position: relative;
+}
+
+.maintxt {
+    position: absolute;
+    top: 80px;
+    left: 30px;
+    font-size: 0.7em;
+    letter-spacing: 2px;
+}
+
+.title1,
+.title2 {
+    text-align: center;
+    margin: 0.4em auto;
+}
+
+
+
+.promotion_section {
+    text-align: center;
+    margin: 0 auto;
+    width: 600px;
+    height: 250px;
+    background: blue;
+    overflow: hidden;
+}
+
+
+.promotion1_show {
+    width: 50%;
+    padding: 0 1px;
+    padding-left: 0;
+    height: 200px;
+    background-color: skyblue;
+    border: 1px solid green;
+    float: left;
+    font-size: 0.6em;
+    line-height: 1.3em;
+    position: relative;
+}
+
+.promotion2_show {
+    width: 50%;
+    padding-left: 1px;
+    height: 200px;
+    background-color: pink;
+    float: right;
+    font-size: 0.6em;
+    line-height: 1.3em;
+    border: 1px solid red;
+}
+
+.promo_image1 {
+    display: inline-block;
+    width: 100%;
+    height: 160px;
+    background-image: url('https://www.nespresso.com/ecom/medias/sys_master/public/12694457352222/Pumpkin-spice-cake-coffee-lauch-3072x1640px-HR.jpg?imwidth=1000');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+
+    border: 1px solid orange;
+
+}
+
+.promo_image2 {
+    display: inline-block;
+    width: 100%;
+    height: 160px;
+    background-image: url('https://www.nespresso.com/ecom/medias/sys_master/public/12685459750942/3-3072x1640-v2-Essenza.jpg?imwidth=2000');
+    background-size: 100%;
+    /* line-height: 180px; */
+}
+
+
+
+.promotion1_hide {
+    display: inline-block;
+    width: 50%;
+    height: 30px;
+    background: white;
+}
+
+.promotion1_show:hover {
+    width: 50%;
+    transition: all 0.3s;
+    transform: translate(0px, -50px);
+    /* height: 60px; */
+}
+
+
+.promotion2_show:hover {
+    width: 50%;
+    transition: all 0.3s;
+    transform: translate(0px, -40px);
+    height: 240px;
+}
+
+
+
+.story {
+    margin: 0 auto;
+    width: 600px;
+    height: 200px;
+    /* justify-content: right; */
+    background: yellow;
+    text-align: center;
+    position: relative;
+    display: block;
+
+
+
+
+}
+
+.story1,
+.story2,
+.story3 {
+    display: inline-block;
+    top: 0;
+    line-height: 180px;
+    width: 198px;
+    height: 180px;
+}
+
+.story1 {
+    float: left;
+    width: 200px;
+    padding: 10px;
+    left: 0;
+    background-image: url('https://www.nespresso.com/ecom/medias/sys_master/public/10829830651934/homepush-ccp.jpg?imwidth=330');
+    background-size: cover;
+    text-align: center;
+
+}
+
+.story2 {
+    width: 200px;
+    background-image: url('https://www.nespresso.com/ecom/medias/sys_master/public/10829830651934/homepush-ccp.jpg?imwidth=330');
+    background-size: cover;
+}
+
+.story3 {
+    float: right;
+    width: 33.3%;
+    background-image: url('https://www.nespresso.com/ecom/medias/sys_master/public/10829830651934/homepush-ccp.jpg?imwidth=330');
+    background-size: cover;
+}
+
+
+footer {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 124px);
+    font-size: 10px;
+    text-align: left;
+}
+
+footer h4 {
+    margin-bottom: 1em;
+}
+
+footer li {
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+footer li:hover {
+    color: red;
+}
